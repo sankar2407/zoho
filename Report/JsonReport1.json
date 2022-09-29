@@ -1,0 +1,129 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Browser Launch To  Zoho Website",
+        "description": "",
+        "id": "zoho-website-login;browser-launch-to--zoho-website",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 47425300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Launch The Chrome Browser",
+            "match": {
+              "location": "stepDefinitionZoho.user_Launch_The_Chrome_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4855402100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User open Zoho HomePage",
+            "match": {
+              "location": "stepDefinitionZoho.user_open_Zoho_HomePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1950026400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click to Sign in button",
+            "match": {
+              "location": "stepDefinitionZoho.user_click_to_Sign_in_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Create Account And Take Screenshot",
+        "description": "",
+        "id": "zoho-website-login;create-account-and-take-screenshot",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1231280600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User Enter Mail id in UserId TextBox",
+            "match": {
+              "location": "stepDefinitionZoho.user_Enter_Mail_id_in_UserId_TextBox()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 273806000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User Enter PassWord in PassWord TextBox",
+            "match": {
+              "location": "stepDefinitionZoho.user_Enter_PassWord_in_PassWord_TextBox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 95840500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User Accpet The Terms And Conditions",
+            "match": {
+              "location": "stepDefinitionZoho.user_Accpet_The_Terms_And_Conditions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 130158100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User Click Create Account Button",
+            "match": {
+              "location": "stepDefinitionZoho.user_Click_Create_Account_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 275290600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User Take ScreenShot of the WebPage",
+            "match": {
+              "location": "stepDefinitionZoho.user_Take_ScreenShot_of_the_WebPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "zoho Website Login",
+    "description": "",
+    "id": "zoho-website-login",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/features/zohoLogin.feature",
+    "tags": []
+  }
+]

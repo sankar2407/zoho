@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="8.866909">
+    <testcase classname="zoho Website Login" name="Browser Launch To  Zoho Website" time="6.860118">
+        <system-out><![CDATA[Given User Launch The Chrome Browser........................................passed
+When User open Zoho HomePage................................................passed
+Then User click to Sign in button...........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="zoho Website Login" name="Create Account And Take Screenshot" time="2.006791">
+        <system-out><![CDATA[Given User Enter Mail id in UserId TextBox..................................passed
+When User Enter PassWord in PassWord TextBox................................passed
+And User Accpet The Terms And Conditions....................................passed
+And User Click Create Account Button........................................passed
+Then User Take ScreenShot of the WebPage....................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
